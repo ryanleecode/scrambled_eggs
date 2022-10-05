@@ -1,0 +1,15 @@
+[package]
+name = "mysterious_unnamed_rust_project"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0.8" }
+serde = { version = "1", features = ["derive"] }
+csv = "1.1"
+readonly = "0.2"
+anyhow = "1.0.65"
+spectral = "0.6.0"
+thiserror = "1.0.37"
